@@ -1,0 +1,42 @@
+## ============ Shell, Git, GitHub ====================
+____________________________________________________________________________________________________________________
+
+ls -l 			=> to get more information: files/folder name, created date, ...
+ls -a 			=> to check all files including hidden files
+
+pwd 			=> to get the working directory 
+ 
+mkdir my-folder 		=> make a folder directory 
+touch my-file.txt 	=> to create a empty file named `my-file.txt`
+cat my-file.txt 		=> to see the contain of the `my-file.txt` file 
+
+rm my-file.txt 		=> to remove the file
+rm -d my-folder 		=> to remove(delete) a empty folder
+rm -r my-folder 		=> to remove a no empty folder (r=recursive, the files, then the other then the folder ...)
+du 			=> to get the size of the flies/folders  
+
+____________________________________________________________________________________________________________________
+git config --global user.name 			=> to check the user name of the git 
+git config --global user.name "Djiby BALDE" 	=> to config your name 
+git config --global user.email "dybalde@gmail.com" => to config your email 
+
+git branch 			=> to get the branch name (for master)
+git branch -M main 		=> to rename the actual branch to main
+git remote add origin 		=> to link between the local repository and the remote repository 
+
+git add my-file.txt 		=> to add the file from the working directory to the stage 
+git commit -m "my message" 	=> to move from the stage to the local repository 
+git push origin master 		=> to push from the local repository to the remote one (for example to GitHub <master>) 
+
+				========== stage vs repository, status vs log ==============
+				=> https://user.oc-static.com/upload/2019/07/02/1562070846258_07.jpg
+				=> https://miro.medium.com/max/1400/1*tjrF1ff5UjVNclwwe_GREg.png
+git status 			=> to check the the stage history 
+git log 				=> to check the local repository history (historique des changements) 
+
+git branch 			=> to check the branch name
+git branch feature/login-form 	=> to crate a new branch named feature/login-form
+git checkout feature/login-form	=> to switch to the feature/login-form branch
+git branch -d feature/login-form 	=> to delete the feature/login-form branch
+git push origin feature/login-form=> to push the secondary branch to the remote
+
