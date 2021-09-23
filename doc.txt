@@ -34,9 +34,10 @@ git push origin master 		=> to push from the local repository to the remote one 
 git status 			=> to check the the stage history 
 git log 				=> to check the local repository history (historique des changements) 
 
-git branch 			=> to check the branch name
-git branch feature/login-form 	=> to crate a new branch named feature/login-form
-git checkout feature/login-form	=> to switch to the feature/login-form branch
-git branch -d feature/login-form 	=> to delete the feature/login-form branch
-git push origin feature/login-form=> to push the secondary branch to the remote
+git branch 					=> to check the branch name
+git branch feature/login-form 			=> to crate a new branch named feature/login-form
+git checkout feature/login-form			=> to switch to the feature/login-form branch
+git branch -d feature/login-form 			=> to delete the feature/login-form branch
+git push origin feature/login-form		=> to push the secondary branch to the remote
+git push origin --delete feature/login-form 	=> to delete the pushed branch from the remote (not the local) 
 
